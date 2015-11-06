@@ -14,11 +14,8 @@
 
         http://www.springframework.org/schema/context/spring-context.xsd">
 
- 
-
-    <context:component-scan base-package="player"/>
+     <context:component-scan base-package="player"/>
 <!--     <context:component-scan base-package="domain"/> -->
 
  
-
 </beans>

@@ -1,11 +1,8 @@
 package player;
 
-import java.util.Collection;
-
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import domain.player.model.Player;
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 @RestController
@@ -13,9 +10,10 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 public class PlayerResource {
 
 	@RequestMapping(value = "/", method = GET)
-	public Collection<Player> list() {
+	//	public Collection<Player> list() {
+	public String list() {
 		//TODO
-		return null;
+		return "Hello muzer focking Wurld";
 	}
 
 }
